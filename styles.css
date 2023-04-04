@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+p {
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(237, 250, 254);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row-reverse;
+margin: 30px;
+}
+
+#fooldal {
+    margin-left: 2rem;
+    text-align: left;
+    padding: 2rem;
+    border: 2px solid black;
+    width: min-content;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:#B4D4EE;
+}
+
+#fooldal:hover {
+    background-color: #A7ABDD;
+    transition: 1s;
+}
+
+.buttom_container {
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.buttom_container h1 {
+    background-color: #B4D4EE;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.buttom_container h1:hover {
+    background-color: #A7ABDD;
+    transition: 1s;
+}
+
+.hidden {
+    display: none;
+}
+
+.topic_container {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    background-color:#B4D4EE;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.tema_container {
+    
+}
+
+.tema_container h1 {
+    letter-spacing: 5px;
+}
+
+.nehezseg_container h1 {
+    letter-spacing: 5px;
+}
+
+.tema_container h3 {
+    background-color: #A7ABDD;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border: 2px solid;
+    width: 30vw;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.tema_container h3:hover {
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+.nehezseg_container h3 {
+    background-color: #A7ABDD;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border: 2px solid;
+    width: 30vw;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.nehezseg_container h3:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}

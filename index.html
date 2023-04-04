@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Angol Szótár</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Angol szótár</h1>
+      <h2 id="valassz">Válassz az alábbi opciók közül!</h2>
+      <h2 id="fooldal" class="hidden">Főoldal</h2>
+    </div>
+    <div id="buttom_container" class="buttom_container">
+      <h1 id="tema_buttom">Témakörök</h1>
+      <h1 id="nehezség_buttom">Nehézségi fok</h1>
+    </div>
+    <div id="tema_container" class="tema_container hidden">
+      <h1>Témakörök</h1>
+      <h3 id="1" class="topic_buttom">Evés, Főzés</h3>
+      <div id="topic_1" class="topic_containerBasic hidden">
+        <div class="bold">
+          <p>to bite</p>
+          <p>to chew</p>
+          <p>to feed</p>
+          <p>hungry (hunger)</p>
+          <p>portion</p>
+          <p>to slice</p>
+          <p>(to be) full</p>
+        </div>
+        <div class="italic">
+          <p>harap, megharap</p>
+          <p>rágni</p>
+          <p>etetni</p>
+          <p>éhség, éhes</p>
+          <p>adag</p>
+          <p>szeletel</p>
+          <p>jóllakott</p>
+        </div>
+        <div>
+          <p>I bit the apple.</p>
+          <p>It is hard for me to chew this apple.</p>
+          <p>I usually feed my dog in the morning.</p>
+          <p>I am very hungry.</p>
+          <p>I don't like big portions.</p>
+          <p>I sliced up a onion.</p>
+          <p>Thank you for the food, I am full.</p>
+        </div>
+      </div>
+      <h3 id="2" class="topic_buttom">Életmód, Életvitel</h3>
+      <div class="topic_containerBasic hidden">
+        <div class="bold">
+          <p>to enjoy</p>
+          <p>to experience</p>
+          <p>to learn</p>
+          <p>to undergo</p>
+          <p>to go through</p>
+          <p>to try out</p>
+          <p>independent</p>
+          <p>deadline</p>
+          <p>scheduled</p>
+          <p>habit</p>
+          <p>occupy</p>
+        </div>
+        <div class="italic">
+          <p>élvezni</p>
+          <p>tapasztalni</p>
+          <p>tanulni</p>
+          <p>keresztül megy valamin</p>
+          <p>keresztül megy valamin</p>
+          <p>kipróbálni</p>
+          <p>független</p>
+          <p>határidő</p>
+          <p>beütemezett</p>
+          <p>szokás</p>
+          <p>elfoglaltság/elfoglalt vmivel</p>
+        </div>
+        <div>
+          <p>I enjoy helping others</p>
+          <p>I have bad experience with him</p>
+          <p>I learn new things every day</p>
+          <p>The restaurant underwent difficult times</p>
+          <p>I go through difficult times</p>
+          <p>He tried out the new shop</p>
+          <p>She is quite independent</p>
+          <p>The deadline is tomorrow</p>
+          <p>The ROCC is scheduled in April</p>
+          <p>Eating fast food is a bad habit</p>
+          <p>Gábor is occupied with writing the report</p>
+        </div>
+      </div>
+    </div>
+    <div id="nehezseg_container" class="nehezseg_container hidden">
+      <h1>Nehézségek</h1>
+      <h3 id="101" class="topic_buttom">A1</h3>
+      <div class="difficult_containerBasic hidden">
+        <div class="bold">
+          <p>about</p>
+          <p>again</p>
+          <p>to catch</p>
+          <p>cupboard</p>
+          <p>don't worry</p>
+          <p>floor</p>
+          <p>from</p>
+          <p>great</p>
+          <p>look at</p>
+          <p>lots of</p>
+          <p>restroom</p>
+          <p>nice</p>
+          <p>short</p>
+          <p>there</p>
+          <p>toy</p>
+          <p>already</p>
+          <p>to borrow</p>
+        </div>
+        <div class="italic">
+          <p>-ról -ről</p>
+          <p>újra</p>
+          <p>elkapni</p>
+          <p>konyhai szekrény</p>
+          <p>ne aggódj!</p>
+          <p>padló</p>
+          <p>valahonnan</p>
+          <p>nagyszerü</p>
+          <p>néz (valamire)</p>
+          <p>sok, rengeteg</p>
+          <p>fürdőszoba</p>
+          <p>szép, kedves</p>
+          <p>rövid</p>
+          <p>ott</p>
+          <p>játék</p>
+          <p>máris</p>
+          <p>kölcsönkérni</p>
+        </div>
+        <div>
+          <p>Can we talk about yesterday?</p>
+          <p>I tried again and I failed</p>
+          <p>The dog caught the ball</p>
+          <p>The coffee is in the cupboard</p>
+          <p>Don't worry! It is fine</p>
+          <p>The shoes are on the floor</p>
+          <p>I come from the restaurant</p>
+          <p>You are great!</p>
+          <p>Don't look at me!</p>
+          <p>I have lots of money</p>
+          <p>Where is the restroom?</p>
+          <p>I think you are nice</p>
+          <p>The tree used to be shorter</p>
+          <p>The garden is there behind the house</p>
+          <p>The dog have a new toy</p>
+          <p>I already finished my work</p>
+          <p>Can I borrow some money from you?</p>
+        </div>
+      </div>
+      <h3 id="102" class="topic_buttom">A2</h3>
+      <div class="difficult_containerBasic hidden">
+        <div class="bold">
+          <p>afraid of</p>
+          <p>against</p>
+          <p>to agree</p>
+          <p>alarm</p>
+          <p>to allow</p>
+          <p>almost</p>
+          <p>alone</p>
+          <p>alright</p>
+          <p>amazing</p>
+          <p>appointment</p>
+          <p>attractive</p>
+        </div>
+        <div class="italic">
+          <p>fél valamitől</p>
+          <p>ellene van</p>
+          <p>egyetért</p>
+          <p>riasztó</p>
+          <p>engedni</p>
+          <p>majdnem</p>
+          <p>egyedül</p>
+          <p>rendben</p>
+          <p>csodás</p>
+          <p>időpont</p>
+          <p>vonzó</p>
+        </div>
+        <div>
+          <p>I am afraid of spiders</p>
+          <p>I am against immigration</p>
+          <p>I agree with you</p>
+          <p>I set the alarm to 6 o'clock</p>
+          <p>I allow you to eat the burger</p>
+          <p>I almost finished work today</p>
+          <p>I was walking alone</p>
+          <p>Alright, I do it!</p>
+          <p>You are an amazing person</p>
+          <p>I have an appointment with my doctor</p>
+          <p>Sára is very attractive</p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
