@@ -1,0 +1,249 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+p {
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(237, 250, 254);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row-reverse;
+margin: 30px;
+}
+
+#fooldal {
+    margin-left: 2rem;
+    text-align: left;
+    padding: 2rem;
+    border: 2px solid black;
+    width: min-content;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:#B4D4EE;
+}
+
+#fooldal:hover {
+    background-color: #A7ABDD;
+    transition: 1s;
+}
+
+.buttom_container {
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20vh;
+    grid-template-columns: 30% 30% 30%;
+    width: 90vw;
+    justify-content: center;
+}
+
+.buttom_container h1 {
+    background-color: #B4D4EE;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.buttom_container h1:hover {
+    background-color: #A7ABDD;
+    transition: 1s;
+}
+
+.hidden {
+    display: none;
+}
+
+.topic_container {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    background-color:#B4D4EE;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.tema_container {
+    
+}
+
+.tema_container h1 {
+    letter-spacing: 5px;
+}
+
+.nehezseg_container h1 {
+    letter-spacing: 5px;
+}
+
+.tema_container h3 {
+    background-color: #A7ABDD;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border: 2px solid;
+    width: 30vw;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.tema_container h3:hover {
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+.nehezseg_container h3 {
+    background-color: #A7ABDD;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border: 2px solid;
+    width: 30vw;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.nehezseg_container h3:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#igeidok_buttom {
+    background-color: rgb(163, 163, 161);
+    cursor:default;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.a_width {
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+.navbar a p {
+    font-weight: bold;
+    color: white;
+}
+
+.vissza:hover {
+    letter-spacing: 2px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.tense_choice {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    margin-top: 50px;
+    gap: 0;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin: auto;
+    align-items: center;
+}
+
+td {
+    min-width: 100px;
+}
+
+.description_container {
+    width: 90vw;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: #B4D4EE;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer button {
+    height: 70px;
+    background-color: rgb(119, 247, 119);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer button:hover {
+    background-color: aquamarine;
+
+}
+
+.good {
+    background-color: rgb(181, 245, 181);
+    border: 1px solid green;
+}
+
+.bad {
+    background-color: rgb(246, 157, 157);
+    border: 1px solid red;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
