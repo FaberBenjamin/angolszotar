@@ -403,3 +403,21 @@ top: 0;
     margin: auto;
     margin-top: 20vh;
 }
+
+.option_conainer {
+    /* display: flex; */
+}
+
+.option_conainer option {
+    font-size: 18px;
+}
+
+.option_conainer select {
+    font-size: 18px;
+}
+
+.chat {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
